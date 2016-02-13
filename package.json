@@ -17,7 +17,8 @@
   },
   "dependencies": {
     "express": "^4.13.3",
-    "socket.io":"1.4.5"
+    "socket.io":"1.4.5",
+    "moment":"2.11.2"
   },
   "homepage": "https://github.com/kiranvsk1/socket-io-intro#readme"
 }
