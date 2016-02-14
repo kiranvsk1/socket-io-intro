@@ -2,25 +2,21 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Hello Shiva</title>
+    <title>Welcome! To Chat Room</title>
+    <link href="//abs.twimg.com/favicons/favicon.ico" rel="shortcut icon" type="image/x-icon">
+    <!-- <link rel="shortcut icon" href="/home/aerie/gitFiles/socket-io-intro/public/images/faviconMu.ico" type="image/x-icon"/> -->
   </head>
   <body>
-    <form id="message-form">
-      <input type="text" name="message"/>
-      <input type="submit"/>
+    <h2>Join Chat</h2>
+    <form action="/chat.html" id="index">
+      <label for="name">Display Name</label>
+      <input type="text" name="name" id="name">
+      <label for="room">Room Name</label>
+      <input type="text" name="room" id="room">
+      <input type="submit" value="Join Me!!">
     </form>
-    <script src="/js/jquery-2.2.0.js" charset="utf-8"></script>
-    <script src="/js/socket.io-1.4.5.js" charset="utf-8"></script>
-    <script src="/js/app.js" charset="utf-8"></script>
-    <!-- <h2>Stark</h2> -->
-    <div class="messages">
-      <!-- For Messages -->
-      <!-- <p>
-        First Message
-      </p>
-      <p>
-        second Message -->
-      </p>
-    </div>
+    <!-- <script src="/js/app.js" charset="utf-8"></script> -->
+
+
   </body>
 </html>
